@@ -1,6 +1,8 @@
 lasso-loader
 ============
 
+FORKED to support charset: utf-8 on async loaded scripts
+
 This module provides functionality to asynchronously load JavaScript and CSS resources in any web browser. It's used by Lasso.js to support lazily loading resources, but it can also be used independently of Lasso.js.
 
 NOTE: All resources are loaded in parallel.
