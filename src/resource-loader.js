@@ -58,6 +58,7 @@ exports.js = function(src, callback, attributes) {
     extend(attributes, {
         type: 'text/javascript',
         src: src,
+        charset: 'utf-8',
         onreadystatechange: function () {
             if (el.readyState == 'complete' || el.readyState == 'loaded') {
                 success();
